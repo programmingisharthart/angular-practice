@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { PasswordComponent } from './login/password/password.component';
 import { UsernameComponent } from './login/username/username.component';
+import { StartPauseComponent } from './start-pause/start-pause.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     UsernameComponent,
-    PasswordComponent
+    PasswordComponent,
+    StartPauseComponent
   ],
   imports: [
     BrowserModule,

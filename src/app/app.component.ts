@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Practice in angular';
   name = 'Aaron';
+  intervalNumber: number = 0;
+  intervalFired(e: any) {
+    console.log(e);
+    this.intervalNumber = e.lastNumber
+  }
 }

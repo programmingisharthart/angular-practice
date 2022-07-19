@@ -7,7 +7,7 @@ import * as _ from "lodash";
 })
 export class UsernameComponent implements OnInit {
   username: string = '';
-  _ = _;
+
   isError = false;
   warning: string = 'Please enter username!'
   constructor() { }
